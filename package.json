@@ -2,8 +2,10 @@
   "name": "lab-12-uzdigital12345",
   "version": "1.0.0",
   "description": "![preview](src/images/scroll-eff.gif)",
-  "private":true,
+  "main": "index.js",
   "scripts": {
+    "build":"webpack",
+    "start":"webpack-dev-server --open"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/iuthub/lab-12-uzdigital12345/issues"
   },
-  "homepage": "https://github.com/iuthub/lab-12-uzdigital12345#readme"
+  "homepage": "https://github.com/iuthub/lab-12-uzdigital12345#readme",
+  "devDependencies": {
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  }
 }

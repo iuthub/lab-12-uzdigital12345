@@ -1,6 +1,6 @@
 ## Landing page website 
 
-![preview](src/images/scroll-eff.gif)
+![preview](images/scroll-eff.gif)
 
 A landing page website based on bootstrap 4 for educational purpose 
 
